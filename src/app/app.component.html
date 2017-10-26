@@ -1,0 +1,24 @@
+<h1>search filter usage</h1>
+<br/>
+<h4>Input text</h4>
+<input type="text" [(ngModel)]="search"/>
+<br/><br/>
+<table>
+  <tr>
+    <th>NAME</th>
+    <th>10th</th>
+    <th>EMAIL</th>
+    <th>12th</th>
+    <th>AGE</th>
+  </tr>
+  <tr *ngFor="let student of students |SearchFilter:search">
+    <td>{{student.name}}</td>
+    <td>{{student.matrix}}</td>
+    <td>{{student.email}}</td>
+    <td>{{student.senior}}</td>
+    <td>{{student.age}}</td>
+  </tr>
+</table>
+<br/>
+<hr/>
+<br/>
