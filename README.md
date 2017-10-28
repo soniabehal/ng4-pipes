@@ -29,4 +29,19 @@ This pipe will filter the table data according to text given to it. Check it out
 
 ##### <tr *ngFor="let student of students | SearchFilter:search">
 
+***
+### app.module.ts 
+![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/module.PNG)
+***
+### app.component.ts
+![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/component.PNG)
+***
+### app.component.html
+![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/html.PNG)
+***
+### Test 1
+![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/test1.PNG)
+***
+### Test 2
+![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/test2.PNG)
 
