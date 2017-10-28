@@ -1,8 +1,6 @@
 # ng4-pipes
-***
 A simple yet elegant way to apply filtering functionality on your HTML tables in Angular using pipes.
-***
-___
+
 ### Search Filter
 #### Table - initially
 ![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/ng4-pipes1.PNG)
@@ -13,7 +11,7 @@ ___
 #### Table - Filtering by fields 10th and Age
 ![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/ng4-pipes3.PNG)
 ***
-___
+
 ### Installation
 Install using npm
 ```bash
@@ -23,7 +21,7 @@ ___
 
 ### Usage
 1. Import into your.module.ts
-```bash
+```typescript
 import{ SearchFilter } from "ng4-pipes/src/app/pipes/searchFilter"
 
 declarations: [ 
@@ -32,17 +30,17 @@ declarations: [
 ```
 
 2. Import the required filter in your.component.ts
-```bash
+```typescript
 import{SearchFilter} from"ng4-pipes/src/app/pipes/searchFilter";
 ```
 
 3. Use in your.component.html
 #### Define the textbox(<input type="text">) to be used to search in the table
-```bash
+```typescript
 <input type="text" [(ngModel)]="search"/>
 ```
 #### Use the pipe on the target table
-```bash
+```typescript
 <tr *ngFor="let student of students | SearchFilter:search">
 ```
 
