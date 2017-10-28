@@ -18,12 +18,8 @@ Install using npm
 ```bash
 npm install --save ng4-pipes
 ```
-___
 
-
-```
-## Search Filter
-```
+ ##Search Filter
 ### Usage
 1. Import into your.module.ts
 ```typescript
