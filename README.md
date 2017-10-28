@@ -24,7 +24,7 @@ npm install --save ng4-pipes
 ```typescript
 import { SearchFilter } from "ng4-pipes/src/app/pipes/searchFilter"
 
-// and then add in your module's declarations array 
+// and  add in your module's declarations array 
 declarations: [ 
     SearchFilter 
     ]
@@ -32,22 +32,19 @@ declarations: [
 
 2. Import the required filter in your.component.ts
 ```typescript
-import{SearchFilter} from"ng4-pipes/src/app/pipes/searchFilter";
+import { SearchFilter } from "ng4-pipes/src/app/pipes/searchFilter";
 ```
 
 3. Use in your.component.html
-#### Define the textbox(<input type="text">) to be used to search in the table
-```typescript
+
+Define the textbox to be used to search in the table
+```html
 <input type="text" [(ngModel)]="search"/>
 ```
-#### Use the pipe on the target table
-```typescript
+Use the pipe on the target table
+```html
 <tr *ngFor="let student of students | SearchFilter:search">
 ```
-
-***
-
-
 
 ## Troubleshooting
 
