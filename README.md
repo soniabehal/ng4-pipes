@@ -6,13 +6,13 @@ Search Filter
 ```
 ### Table - initially
 ![table](https://github.com/soniabehal/ng4-pipes/blob/master/images/ng4-pipes1.png)
-***
+
 ### Table - Filtering by Name
 ![filteres by name](https://github.com/soniabehal/ng4-pipes/blob/master/images/ng4-pipes2.png)
-***
+
 ### Table - Filtering by fields 10th and Age
 ![filtered by age](https://github.com/soniabehal/ng4-pipes/blob/master/images/ng4-pipes3.png)
-***
+
 ### Installation
 Install using npm
 ```bash
