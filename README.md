@@ -5,13 +5,13 @@ A simple yet elegant way to apply filtering functionality on your HTML tables in
 ## Search Filter
 
 #### Table - initially
-![table](https://github.com/soniabehal/ng4-pipes/blob/master/images/searchPipe1.PNG)
+![table](https://github.com/soniabehal/ng4-pipes/blob/master/images/searchPipe1.png)
 
 #### Table - Filtering by Name
-![filteres by name](https://github.com/soniabehal/ng4-pipes/blob/master/images/searchPipe2.PNG)
+![filteres by name](https://github.com/soniabehal/ng4-pipes/blob/master/images/searchPipe2.png)
 
 #### Table - Filtering by fields 10th and Age
-![filtered by age](https://github.com/soniabehal/ng4-pipes/blob/master/images/searchPipe3.PNG)
+![filtered by age](https://github.com/soniabehal/ng4-pipes/blob/master/images/searchPipe3.png)
 
 ### Installation
 Install using npm
