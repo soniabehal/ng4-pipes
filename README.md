@@ -2,7 +2,9 @@
 This package consists of pipes which you can use in your project.
 ***
 ### Installing ng4-pipes
-npm install --save ng4-pipes
+```terminal 
+  npm install --save ng4-pipes
+```
 ___
 ### List of pipes available 
 1. Search filter
@@ -13,35 +15,38 @@ This pipe will filter the table data according to text given to it. Check it out
 
 #### Step 1. Import and declare the search filter in ur module
 
-##### import{SearchFilter} from"ng4-pipes/src/app/pipes/searchFilter";
+```typescript 
+  import{SearchFilter} from"ng4-pipes/src/app/pipes/searchFilter";
 
-##### declarations: [
-#####   SearchFilter
-##### ]
-
+ declarations: [
+   SearchFilter
+  ]
+  ```
 #### Step 2. Import the filter in your component
 
-#### import{SearchFilter} from"ng4-pipes/src/app/pipes/searchFilter";
+```typescript 
+import{SearchFilter} from"ng4-pipes/src/app/pipes/searchFilter";
+```
 
 #### Step 3.  Use "SearchFilter"  on required table
 
-#### <input type="text" [(ngModel)]="search"/>
+```typescript  <input type="text" [(ngModel)]="search"/>
 
-##### <tr *ngFor="let student of students | SearchFilter:search">
+ <tr *ngFor="let student of students | SearchFilter:search">
+```
 
-***
-### app.module.ts 
+```typescript  app.module.ts ```
 ![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/module.PNG)
-***
-### app.component.ts
+
+```typescript  app.component.ts ```
 ![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/component.PNG)
-***
-### app.component.html
+
+```typescript  app.component.html ```
 ![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/html.PNG)
-***
-### Test 1
+
+```typescript  Test 1 ```
 ![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/test1.PNG)
-***
-### Test 2
+
+```typescript  Test 2 ```
 ![alt text](https://github.com/soniabehal/ng4-pipes/blob/master/images/test2.PNG)
 
