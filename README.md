@@ -1,5 +1,5 @@
 # ng4-pipes
-This package consists of pipes which you can use in your project. Just you need to do the imports and you them.
+This package consists of pipes which you can use in your project.
 ***
 ### Installing ng4-pipes
 npm install --save ng4-pipes
