@@ -1,17 +1,18 @@
 # ng4-pipes
 
 A simple yet elegant way to apply filtering functionality on your HTML tables in Angular using pipes.
-
-### Search Filter
-#### Table - initially
+```
+Search Filter
+```
+### Table - initially
 ![table](https://github.com/soniabehal/ng4-pipes/blob/master/images/ng4-pipes1.png)
-
-#### Table - Filtering by Name
+***
+### Table - Filtering by Name
 ![filteres by name](https://github.com/soniabehal/ng4-pipes/blob/master/images/ng4-pipes2.png)
-
-#### Table - Filtering by fields 10th and Age
+***
+### Table - Filtering by fields 10th and Age
 ![filtered by age](https://github.com/soniabehal/ng4-pipes/blob/master/images/ng4-pipes3.png)
-
+***
 ### Installation
 Install using npm
 ```bash
