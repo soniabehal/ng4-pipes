@@ -6,10 +6,7 @@
     "strictNullChecks": true,
     "noImplicitAny": true,
     "module": "commonjs",
-    "paths": {
-      "@angular/core": ["node_modules/@angular/core"],
-      "rxjs/*": ["node_modules/rxjs/*"]
-    },
+   
     "target": "ES5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,

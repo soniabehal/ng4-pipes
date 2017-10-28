@@ -17,7 +17,7 @@ This pipe will filter the table data according to text given to it. Check it out
 
 ##### declarations: [
 #####   SearchFilter
- ##### ]
+##### ]
 
 2. Import the filter in your component
 

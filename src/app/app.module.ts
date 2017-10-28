@@ -1,4 +1,4 @@
-//import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import{CommonModule} from '@angular/common';
 import { NgModule } from '@angular/core';
 import{FormsModule} from '@angular/forms';
@@ -12,7 +12,7 @@ import{SearchFilter} from'./pipes/searchFilter'
   imports: [
     CommonModule,
     FormsModule,
-    //BrowserModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
