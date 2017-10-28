@@ -36,11 +36,11 @@ import { SearchFilter } from "ng4-pipes/src/app/pipes/searchFilter";
 ```
 
 3. Use in your.component.html
-#### Define the textbox to be used to search in the table
+Define the textbox to be used to search in the table
 ```html
 <input type="text" [(ngModel)]="search"/>
 ```
-#### Use the pipe on the target table
+Use the pipe on the target table
 ```html
 <tr *ngFor="let student of students | SearchFilter:search">
 ```
