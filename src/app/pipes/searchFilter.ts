@@ -9,7 +9,7 @@ export class SearchFilter implements PipeTransform {
                 var x = Object.keys(element);
                 var cond = false;
                 x.forEach(ele => {
-                    cond = cond || element[ele].toString().indexOf(value.toString()) > -1;
+                    cond = cond || element[ele].toString().toLowerCase().indexOf(value.toLowerCase()) > -1;
                 })
                 return cond;
             });
