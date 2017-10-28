@@ -1,16 +1,18 @@
 {
   "name": "ng4-pipes",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "license": "MIT",
+  "typings": "./dist/src/app/ng4-pipes.d.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "prepublish": "tsc",
+    "build": "ng build"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",

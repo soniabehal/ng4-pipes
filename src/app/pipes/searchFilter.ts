@@ -3,9 +3,9 @@ import { Pipe, PipeTransform } from "@angular/core";
     name: "SearchFilter"
 })
 export class SearchFilter implements PipeTransform {
-    transform(data, value) {
+    transform(data:any, value:any) {
         if (value != '') {
-            return data.filter(element => {
+            return data.filter((element:any) => {
                 var x = Object.keys(element);
                 var cond = false;
                 x.forEach(ele => {

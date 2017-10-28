@@ -1,13 +1,25 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
+    "baseUrl": ".",
+    "stripInternal": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "paths": {
+      "@angular/core": ["node_modules/@angular/core"],
+      "rxjs/*": ["node_modules/rxjs/*"]
+    },
+    "target": "ES5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es5",
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "inlineSources": true,
+    "skipLibCheck": true,
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -15,5 +27,14 @@
       "es2016",
       "dom"
     ]
-  }
+  },
+  "files": [
+    "./src/app/ng4-pipes"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true
+  },
+  "exclude": [
+      "node_modules"
+  ]
 }
