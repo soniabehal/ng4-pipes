@@ -11,7 +11,7 @@ ___
 ### Search Filter
 This pipe will filter the table data according to text given to it. Check it out how to use it.
 
-1. Import andd declare the search filter in ur module
+#### Step 1. Import and declare the search filter in ur module
 
 ##### import{SearchFilter} from"ng4-pipes/src/app/pipes/searchFilter";
 
@@ -19,11 +19,11 @@ This pipe will filter the table data according to text given to it. Check it out
 #####   SearchFilter
 ##### ]
 
-2. Import the filter in your component
+#### Step 2. Import the filter in your component
 
 #### import{SearchFilter} from"ng4-pipes/src/app/pipes/searchFilter";
 
-3. Use it on required table
+#### Step 3.  Use "SearchFilter"  on required table
 
 #### <input type="text" [(ngModel)]="search"/>
 
