@@ -36,6 +36,7 @@ import { SearchFilter } from "ng4-pipes/src/app/pipes/searchFilter";
 ```
 
 3. Use in your.component.html
+
 Define the textbox to be used to search in the table
 ```html
 <input type="text" [(ngModel)]="search"/>
