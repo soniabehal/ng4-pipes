@@ -5,7 +5,7 @@ This package consists of pipes which you can use in your project.
 ```terminal 
   npm install --save ng4-pipes
 ```
-___
+
 ### List of pipes available 
 1. Search filter
 
